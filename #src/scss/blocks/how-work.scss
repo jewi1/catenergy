@@ -1,0 +1,130 @@
+.how-work {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.how-work__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.how-work__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.how-work__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.how-work__picture {
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+
+  margin-right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+.how-work__text {
+  margin: 0;
+}
+
+.how-work__text br {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .how-work {
+    padding: 0;
+    margin: 0;
+  }
+
+  .how-work__wrapper {
+    width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+
+  .how-work__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .how-work__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .how-work__item {
+    width: 324px;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .how-work__picture {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+
+  .how-work__text {
+    padding-bottom: 50px;
+    margin-bottom: 85px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .how-work__text br {
+    display: block;
+  }
+
+  .how-work__item--1 {
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-position: 118px top;
+  }
+
+  .how-work__item--2 {
+    background-image: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-position: 118px top;
+  }
+
+  .how-work__item--3 {
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-position: 118px top;
+  }
+
+  .how-work__item--4 {
+    background-image: url("../img/4.png");
+    background-repeat: no-repeat;
+    background-position: 118px top;
+  }
+}
+
+@media (min-width: 1440px) {
+  .how-work__wrapper {
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .how-work__item {
+    width: 285px;
+  }
+}

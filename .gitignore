@@ -1,0 +1,35 @@
+#gitgnore file for me :)
+
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+#Файлы редактора
+.idea
+*.sublime
+.vscode
+
+#Вспомогательные файлы
+*.log
+node_modules/
+default/
+
+#папка с проектами
+build/
+
+#использую только препроцессоры
+css/*.css
+
+#прочие файлы
+*.ai
+*.log
+*.pdf
+*.psd
+
+#файлы node
+node_modules/
+npm-debud.*
+
+#шаблоны
+*.psd
+templates/

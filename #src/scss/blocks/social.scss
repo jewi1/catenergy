@@ -1,0 +1,31 @@
+.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .social__link--vk img {
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__link--insta img {
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__link--facebook img {
+    width: 14px;
+    height: 28px;
+  }
+}

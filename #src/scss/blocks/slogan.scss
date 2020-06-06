@@ -1,0 +1,155 @@
+.slogan {
+  padding-top: 26px;
+  background-image: url(../img/slogan-background-mobile.png);
+  background-size: 100% 305px;
+  background-repeat: no-repeat;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slogan__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.slogan__description {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.slogan__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.slogan__link {
+  width: 100%;
+  display: block;
+
+  background-color: #68b738;
+  color: #ffffff;
+
+  text-align: center;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+@media (min-width: 768px) {
+  .slogan {
+    background-image: url("../img/index-can-tablet.png");
+    background-size: 709px 609px;
+    background-position: 30px 230px;
+
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 530px;
+    padding-top: 52px;
+  }
+
+  .slogan__title {
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    text-align: left;
+
+    padding-left: 90px;
+  }
+
+  .slogan__description {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+
+    padding-left: 90px;
+  }
+
+  .slogan__image {
+    display: none;
+  }
+
+  .slogan__link {
+    width: 245px;
+    margin-left: 90px;
+
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slogan {
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-top: 144px;
+
+    background-image: url("../img/slogan-background-desktop.png");
+    background-position: calc(100% + 70px) 0;
+    background-size: 680px 696px;
+  }
+
+  .slogan__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 602px;
+  }
+
+  .slogan__title {
+    width: 480px;
+    padding: 0;
+    order: 1;
+
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .slogan__description {
+    padding: 0;
+    order: 2;
+    margin-bottom: 50px;
+  }
+
+  .slogan__link {
+    margin: 0;
+
+    order: 3;
+  }
+
+  .slogan__picture {
+    order: 4;
+    margin-left: auto;
+  }
+
+  .slogan__image {
+    display: inline-block;
+    width: 597px;
+  }
+}

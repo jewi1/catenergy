@@ -1,0 +1,150 @@
+.catalog-slogan {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.catalog-slogan__block {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  margin-top: 22px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #f2f2f2;
+}
+
+.catalog-slogan__logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  background-color: #68b738;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-slogan__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.catalog-slogan__description {
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.catalog-slogan__link {
+  margin-top: 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .catalog-slogan {
+    padding: 0;
+  }
+
+  .catalog-slogan__wrapper {
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .catalog-slogan__block {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .catalog-slogan__title {
+    margin-left: 0;
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .catalog-slogan__logo {
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    right: 62px;
+  }
+
+  .catalog-slogan__description {
+    width: 372px;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: none;
+  }
+
+  .catalog-slogan__logo--slim img {
+    width: 140px;
+    height: 194px;
+  }
+
+  .catalog-slogan__logo--pro img {
+    width: 268px;
+    height: 112px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .catalog-slogan__wrapper {
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .catalog-slogan__block {
+    flex-direction: row;
+    width: 570px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .catalog-slogan__logo {
+    width: 100px;
+    height: 100px;
+
+    position: static;
+  }
+
+  .catalog-slogan__logo--slim img {
+    width: 70px;
+    height: 97px;
+  }
+
+  .catalog-slogan__logo--pro img {
+    width: 134px;
+    height: 56px;
+  }
+
+  .catalog-slogan__title {
+    align-self: center;
+    margin-left: 65px;
+  }
+
+  .catalog-slogan__description {
+    width: 100%;
+  }
+}

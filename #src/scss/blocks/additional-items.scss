@@ -1,0 +1,235 @@
+.additional-items {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.additional-items__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.additional-items__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  margin-bottom: 40px;
+}
+
+.additional-items__item {
+  margin-bottom: 17px;
+
+  border-top: 1px solid #cdcdcd;
+}
+
+.additional-items__name {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  margin: 0;
+}
+
+.additional-items__content {
+  font-size: 14px;
+  line-height: 14px;
+
+  display: inline-block;
+
+  margin-bottom: 12px;
+}
+
+.additional-items__price {
+  font-size: 14px;
+  line-height: 14px;
+
+  float: right;
+  display: inline-block;
+}
+
+.additional-items__btn {
+  display: block;
+
+  text-align: center;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #68b738;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.additional-items__gift {
+  background-image: url("../img/gift-photo-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 290px;
+  min-height: 290px;
+
+  color: #ffffff;
+}
+
+.additional-items__img {
+  text-align: center;
+
+  padding-top: 65px;
+  margin-bottom: 65px;
+}
+
+.additional-items__slogan {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .additional-items {
+    padding: 0;
+  }
+
+  .additional-items__wrapper {
+    width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+
+  .additional-items__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .additional-items__item {
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 27px;
+    padding-top: 27px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border: 1px solid #cdcdcd;
+  }
+
+  .additional-items__name {
+    margin-right: auto;
+  }
+
+  .additional-items__content {
+    margin: 0;
+    margin-right: 52px;
+  }
+
+  .additional-items__btn {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .additional-items__gift {
+    background-image: url("../img/gift-photo-tablet.jpg");
+    background-size: 100% 200px;
+    min-height: 200px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .additional-items__img {
+    margin: 0;
+    padding: 0;
+
+    margin-left: 90px;
+    margin-right: 277px;
+  }
+
+  .additional-items__slogan {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .additional-items__wrapper {
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .additional-items__wrapper--flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .additional-items__list {
+    width: 895px;
+    max-height: 301px;
+    flex-shrink: 0;
+  }
+
+  .additional-items__item {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 0;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .additional-items__item:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  .additional-items__name {
+    width: 245px;
+    margin-right: 80px;
+  }
+
+  .additional-items__content {
+    width: 245px;
+    margin-right: 0;
+  }
+
+  .additional-items__price {
+    width: 40px;
+    margin-right: 40px;
+  }
+
+  .additional-items__btn {
+    width: 245px;
+    margin: 0;
+  }
+
+  .additional-items__gift {
+    background-image: url("../img/gift-photo-desktop.jpg");
+    background-size: 100% 301px;
+    max-height: 301px;
+    width: 245px;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+
+  .additional-items__img {
+    margin: 0;
+    margin-top: 65px;
+    margin-bottom: 45px;
+  }
+
+  .additional-items__slogan {
+    margin: 0;
+    text-align: center;
+  }
+}

@@ -135,3 +135,136 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.catalog__additional-title br {
+  display: none;
+}
+
+.catalog__additional-text br {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    padding: 0;
+  }
+
+  .catalog__wrapper {
+    width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+
+  .catalog__title {
+    border: none;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 165px;
+  }
+
+  .catalog__item {
+    width: 324px;
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: 140px;
+  }
+
+  .caralog__item--wrapper {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .catalog__img {
+    width: auto;
+    position: absolute;
+
+    bottom: 300px;
+  }
+
+  .catalog__info {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 40px;
+  }
+
+  .catalog__name {
+    text-align: center;
+
+    padding-top: 165px;
+    margin-bottom: 23px;
+  }
+
+  .catalog__table-info {
+    margin-bottom: 33px;
+    border-collapse: collapse;
+  }
+
+  .catalog__table-info td {
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  .catalog__item--additional {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .catalog__additional-img {
+    padding-top: 54px;
+    padding-bottom: 50px;
+  }
+
+  .catalog__additional-img img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .catalog__additional-title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+  .catalog__additional-title br {
+    display: block;
+  }
+
+  .catalog__additional-text {
+    margin-bottom: 95px;
+  }
+
+  .catalog__additional-text br {
+    display: block;
+  }
+
+  .catalog__item:last-child {
+    border: 1px solid #ededed;
+  }
+}
+
+@media (min-width: 1440px) {
+  .catalog__wrapper {
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .catalog__item {
+    width: 245px;
+  }
+}
